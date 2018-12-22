@@ -1,0 +1,90 @@
+h1
+{
+	color: blue;
+}
+header
+{
+	background: url(funny-cats_23.jpg) repeat-x; 
+	border: 1px ridge;
+}
+@font-face
+{
+	font-family: "SourceSansPro-Light";
+	src: url('SourceSansPro-Light.otf');
+}
+h1
+{
+    text-align: center; 
+	border: 3px black solid;
+	box-shadow: 6px 6px 6px black;
+	font-family: "SourceSansPro-Light", Arial, "Comic san ms", sans-serif ;
+}
+
+.photo
+{
+	text-align: center;
+	color: blue;
+}
+h2
+{
+	clear: both;
+	position: relative;
+	left: 5px;	
+}
+section
+{
+	display:flex;
+}
+body
+{
+	display: flex;
+}
+nav
+{
+	background-color: rgba(100,100,100,0.5);
+	border-radius: 5px ;
+	min-width: 100px;
+}
+ul
+{
+	list-style: none;
+	position: relative;
+	right: 5px;
+}
+
+article
+{
+	display: flex;
+	background-color: rgba(200,160,160,0.5);
+	border-radius: 5px ;
+}
+aside
+{
+	background-color: rgba(80, 60, 60,0.5);
+	border: 2px ridge;
+	border-radius: 5px ;
+}
+div
+{
+	min-width: 200px;
+}
+
+@media screen and (max-width: 1024px)
+{
+	nav
+	{
+		display: none;
+	}
+	aside
+	{
+		display: none;
+	}
+	article
+	{
+		width: auto;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+
+	}
+}
